@@ -10,7 +10,7 @@ const T = new Twit({
 
 const stream = T.stream("statuses/filter", {
   track:
-    "# #4MoreForNana",
+    "#4MoreForNana",
 });
 
 function responseCallback(err, data, response) {
